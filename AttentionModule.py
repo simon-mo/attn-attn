@@ -66,6 +66,7 @@ class _ConvNd_Attn(nn.Module):
         
         self.attn_init = attn_init
         self.attn_weights = nn.Parameter(torch.FloatTensor(out_channels,1,1,1))
+        self.attn_mask = nn.Parameter(torch.FloatTensor(out_channels,1,1,1), requires_grad=False)
             
         self.reset_parameters()
 
@@ -79,6 +80,7 @@ class _ConvNd_Attn(nn.Module):
             self.bias.data.uniform_(-stdv, stdv)
             
         self.attn_weights.data.fill_(self.attn_init)
+        self.attn_mask.data.fill_(1)
 
 
 # In[262]:
@@ -97,7 +99,7 @@ class Conv2d_Attn(_ConvNd_Attn):
             False, _pair(0), groups, bias, attn_init=attn_init)
 
     def forward(self, input):
-        attn_paid = self.weight*self.attn_weights
+        attn_paid = self.weight*self.attn_weights*self.attn_mask
         return F.conv2d(input, attn_paid, self.bias, self.stride,
                         self.padding, self.dilation, self.groups)
 

@@ -1,0 +1,65 @@
+[    1] iter, [0.000000] epoch, avg loss: 0.102, attn_loss: 0.00000 
+[   51] iter, [0.196054] epoch, avg loss: 4.306, attn_loss: 0.00000 
+[  101] iter, [0.392109] epoch, avg loss: 3.383, attn_loss: 0.00000 
+[  151] iter, [0.588163] epoch, avg loss: 3.310, attn_loss: 0.00000 
+[  201] iter, [0.784218] epoch, avg loss: 3.067, attn_loss: 0.00000 
+[  251] iter, [0.980272] epoch, avg loss: 2.937, attn_loss: 0.00000 
+100%|██████████| 55/55 [00:13<00:00,  4.05it/s]
+{'val_accu': 0.3255416191562144}
+[ 8201] iter, [32.152922] epoch, avg loss: 2.337, attn_loss: 0.00000 
+[ 8251] iter, [32.348977] epoch, avg loss: 2.434, attn_loss: 0.00000 
+[ 8301] iter, [32.545031] epoch, avg loss: 2.402, attn_loss: 0.00000 
+[ 8351] iter, [32.741086] epoch, avg loss: 2.408, attn_loss: 0.00000 
+[ 8401] iter, [32.937140] epoch, avg loss: 2.404, attn_loss: 0.00000 
+100%|██████████| 55/55 [00:13<00:00,  4.02it/s]
+{'val_accu': 0.33808437856328394}
+[16351] iter, [64.109790] epoch, avg loss: 2.103, attn_loss: 0.00000 
+[16401] iter, [64.305845] epoch, avg loss: 2.054, attn_loss: 0.00000 
+[16451] iter, [64.501899] epoch, avg loss: 2.069, attn_loss: 0.00000 
+[16501] iter, [64.697954] epoch, avg loss: 2.021, attn_loss: 0.00000 
+[16551] iter, [64.894008] epoch, avg loss: 2.031, attn_loss: 0.00000 
+100%|██████████| 55/55 [00:13<00:00,  4.01it/s]
+{'val_accu': 0.36830102622576966}
+[24501] iter, [96.066658] epoch, avg loss: 1.795, attn_loss: 0.00000 
+[24551] iter, [96.262713] epoch, avg loss: 1.752, attn_loss: 0.00000 
+[24601] iter, [96.458767] epoch, avg loss: 1.825, attn_loss: 0.00000 
+[24651] iter, [96.654822] epoch, avg loss: 1.787, attn_loss: 0.00000 
+[24701] iter, [96.850876] epoch, avg loss: 1.891, attn_loss: 0.00000 
+100%|██████████| 55/55 [00:13<00:00,  4.01it/s]
+{'val_accu': 0.3671607753705815}
+[32651] iter, [128.023527] epoch, avg loss: 1.631, attn_loss: 0.00000 
+[32701] iter, [128.219581] epoch, avg loss: 1.605, attn_loss: 0.00000 
+[32751] iter, [128.415635] epoch, avg loss: 1.585, attn_loss: 0.00000 
+[32801] iter, [128.611690] epoch, avg loss: 1.707, attn_loss: 0.00000 
+[32851] iter, [128.807744] epoch, avg loss: 1.677, attn_loss: 0.00000 
+100%|██████████| 55/55 [00:13<00:00,  4.01it/s]
+{'val_accu': 0.3848346636259977}
+[    1] iter, [0.000000] epoch, avg loss: 0.036, attn_loss: 0.00000 
+[   51] iter, [0.196054] epoch, avg loss: 1.740, attn_loss: 0.00000 
+[  101] iter, [0.392109] epoch, avg loss: 1.588, attn_loss: 0.00000 
+[  151] iter, [0.588163] epoch, avg loss: 1.656, attn_loss: 0.00000 
+[  201] iter, [0.784218] epoch, avg loss: 1.614, attn_loss: 0.00000 
+[  251] iter, [0.980272] epoch, avg loss: 1.554, attn_loss: 0.00000 
+100%|██████████| 55/55 [00:13<00:00,  4.01it/s]
+{'val_accu': 0.37799315849486886}
+[ 8201] iter, [32.152922] epoch, avg loss: 1.256, attn_loss: 0.00000 
+[ 8251] iter, [32.348977] epoch, avg loss: 1.440, attn_loss: 0.00000 
+[ 8301] iter, [32.545031] epoch, avg loss: 1.398, attn_loss: 0.00000 
+[ 8351] iter, [32.741086] epoch, avg loss: 1.371, attn_loss: 0.00000 
+[ 8401] iter, [32.937140] epoch, avg loss: 1.428, attn_loss: 0.00000 
+100%|██████████| 55/55 [00:13<00:00,  4.00it/s]
+{'val_accu': 0.35461801596351195}
+[16351] iter, [64.109790] epoch, avg loss: 1.248, attn_loss: 0.00000 
+[16401] iter, [64.305845] epoch, avg loss: 1.268, attn_loss: 0.00000 
+[16451] iter, [64.501899] epoch, avg loss: 1.321, attn_loss: 0.00000 
+[16501] iter, [64.697954] epoch, avg loss: 1.316, attn_loss: 0.00000 
+[16551] iter, [64.894008] epoch, avg loss: 1.347, attn_loss: 0.00000 
+100%|██████████| 55/55 [00:13<00:00,  4.01it/s]
+{'val_accu': 0.3865450399087799}
+[24501] iter, [96.066658] epoch, avg loss: 1.131, attn_loss: 0.00000 
+[24551] iter, [96.262713] epoch, avg loss: 1.206, attn_loss: 0.00000 
+[24601] iter, [96.458767] epoch, avg loss: 1.234, attn_loss: 0.00000 
+[24651] iter, [96.654822] epoch, avg loss: 1.268, attn_loss: 0.00000 
+[24701] iter, [96.850876] epoch, avg loss: 1.204, attn_loss: 0.00000 
+100%|██████████| 55/55 [00:13<00:00,  4.01it/s]
+{'val_accu': 0.395096921322691}
