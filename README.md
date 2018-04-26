@@ -19,3 +19,7 @@
 #### Misc Raw Data
 - `loss_history/fc_9_epoch.txt`
 - `res_fc_attn_train.py`
+
+#### Notes
+
+![Apr. 25](imgs/apr_25_board.jpg)
