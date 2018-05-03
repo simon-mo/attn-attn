@@ -66,6 +66,7 @@ class _ConvNd_Attn(nn.Module):
         
         self.attn_init = attn_init
         self.attn_weights = nn.Parameter(torch.FloatTensor(out_channels,in_channels,1,1))
+        #self.attn_weights = nn.Parameter(torch.FloatTensor(out_channels,1,1,1))
         #self.attn_mask = nn.Parameter(torch.FloatTensor(out_channels,1,1,1), requires_grad=False)
             
         self.reset_parameters()
