@@ -1,0 +1,105 @@
+======================= epoch: 0 layer: fc =========================
+[    1] iter, [0.000000] epoch, avg loss: 0.099, attn_loss: -0.00039 
+[   51] iter, [0.196054] epoch, avg loss: 3.561, attn_loss: -0.01968 
+[  101] iter, [0.392109] epoch, avg loss: 2.201, attn_loss: -0.01968 
+[  151] iter, [0.588163] epoch, avg loss: 1.837, attn_loss: -0.01968 
+[  201] iter, [0.784218] epoch, avg loss: 1.576, attn_loss: -0.01968 
+[  251] iter, [0.980272] epoch, avg loss: 1.411, attn_loss: -0.01968 
+top 1 train_acc:0.5199 | top 3 train_acc:0.6989 | top 1 val_acc: 0.4282 | top 3 val_acc: 0.6266 | time: 0m 22s
+
+======================= epoch: 1 layer: fc =========================
+[    1] iter, [0.000000] epoch, avg loss: 0.028, attn_loss: -0.00039 
+[   51] iter, [0.196054] epoch, avg loss: 1.557, attn_loss: -0.01968 
+[  101] iter, [0.392109] epoch, avg loss: 1.204, attn_loss: -0.01968 
+[  151] iter, [0.588163] epoch, avg loss: 1.173, attn_loss: -0.01968 
+[  201] iter, [0.784218] epoch, avg loss: 1.162, attn_loss: -0.01968 
+[  251] iter, [0.980272] epoch, avg loss: 1.085, attn_loss: -0.01968 
+top 1 train_acc:0.6701 | top 3 train_acc:0.8499 | top 1 val_acc: 0.4641 | top 3 val_acc: 0.6619 | time: 0m 44s
+
+======================= epoch: 2 layer: bn =========================
+[    1] iter, [0.000000] epoch, avg loss: 0.020, attn_loss: -0.00039 
+[   51] iter, [0.196054] epoch, avg loss: 0.941, attn_loss: -0.01968 
+[  101] iter, [0.392109] epoch, avg loss: 0.801, attn_loss: -0.01968 
+[  151] iter, [0.588163] epoch, avg loss: 0.821, attn_loss: -0.01968 
+[  201] iter, [0.784218] epoch, avg loss: 0.684, attn_loss: -0.01968 
+[  251] iter, [0.980272] epoch, avg loss: 0.708, attn_loss: -0.01968 
+top 1 train_acc:0.7787 | top 3 train_acc:0.9221 | top 1 val_acc: 0.4766 | top 3 val_acc: 0.6796 | time: 1m 24s
+
+======================= epoch: 3 layer: att =========================
+[    1] iter, [0.000000] epoch, avg loss: 0.016, attn_loss: -0.00039 
+[   51] iter, [0.196054] epoch, avg loss: 0.679, attn_loss: -0.02001 
+[  101] iter, [0.392109] epoch, avg loss: 0.629, attn_loss: -0.02067 
+[  151] iter, [0.588163] epoch, avg loss: 0.540, attn_loss: -0.02135 
+[  201] iter, [0.784218] epoch, avg loss: 0.599, attn_loss: -0.02206 
+[  251] iter, [0.980272] epoch, avg loss: 0.588, attn_loss: -0.02280 
+top 1 train_acc:0.8341 | top 3 train_acc:0.9503 | top 1 val_acc: 0.4823 | top 3 val_acc: 0.6927 | time: 2m 18s
+
+======================= epoch: 4 layer: att =========================
+[    1] iter, [0.000000] epoch, avg loss: 0.013, attn_loss: -0.00047 
+[   51] iter, [0.196054] epoch, avg loss: 0.556, attn_loss: -0.02363 
+[  101] iter, [0.392109] epoch, avg loss: 0.541, attn_loss: -0.02438 
+[  151] iter, [0.588163] epoch, avg loss: 0.579, attn_loss: -0.02516 
+[  201] iter, [0.784218] epoch, avg loss: 0.457, attn_loss: -0.02597 
+[  251] iter, [0.980272] epoch, avg loss: 0.475, attn_loss: -0.02680 
+top 1 train_acc:0.8574 | top 3 train_acc:0.9608 | top 1 val_acc: 0.5046 | top 3 val_acc: 0.6995 | time: 3m 12s
+
+======================= epoch: 5 layer: bn =========================
+[    1] iter, [0.000000] epoch, avg loss: 0.012, attn_loss: -0.00055 
+[   51] iter, [0.196054] epoch, avg loss: 0.495, attn_loss: -0.02732 
+[  101] iter, [0.392109] epoch, avg loss: 0.515, attn_loss: -0.02732 
+[  151] iter, [0.588163] epoch, avg loss: 0.517, attn_loss: -0.02732 
+[  201] iter, [0.784218] epoch, avg loss: 0.507, attn_loss: -0.02732 
+[  251] iter, [0.980272] epoch, avg loss: 0.509, attn_loss: -0.02732 
+saved model to epoch5_val1_0.489_val3_0.685.pth
+top 1 train_acc:0.8635 | top 3 train_acc:0.9625 | top 1 val_acc: 0.4886 | top 3 val_acc: 0.6847 | time: 3m 52s
+
+======================= epoch: 6 layer: att =========================
+[    1] iter, [0.000000] epoch, avg loss: 0.011, attn_loss: -0.00055 
+[   51] iter, [0.196054] epoch, avg loss: 0.442, attn_loss: -0.02773 
+[  101] iter, [0.392109] epoch, avg loss: 0.473, attn_loss: -0.02856 
+[  151] iter, [0.588163] epoch, avg loss: 0.435, attn_loss: -0.02942 
+[  201] iter, [0.784218] epoch, avg loss: 0.443, attn_loss: -0.03031 
+[  251] iter, [0.980272] epoch, avg loss: 0.441, attn_loss: -0.03123 
+saved model to epoch6_val1_0.494_val3_0.685.pth
+top 1 train_acc:0.8787 | top 3 train_acc:0.9661 | top 1 val_acc: 0.4943 | top 3 val_acc: 0.6853 | time: 4m 46s
+
+======================= epoch: 7 layer: att =========================
+[    1] iter, [0.000000] epoch, avg loss: 0.008, attn_loss: -0.00064 
+[   51] iter, [0.196054] epoch, avg loss: 0.399, attn_loss: -0.03226 
+[  101] iter, [0.392109] epoch, avg loss: 0.378, attn_loss: -0.03319 
+[  151] iter, [0.588163] epoch, avg loss: 0.358, attn_loss: -0.03415 
+[  201] iter, [0.784218] epoch, avg loss: 0.373, attn_loss: -0.03514 
+[  251] iter, [0.980272] epoch, avg loss: 0.335, attn_loss: -0.03616 
+saved model to epoch7_val1_0.498_val3_0.693.pth
+top 1 train_acc:0.9034 | top 3 train_acc:0.9789 | top 1 val_acc: 0.4983 | top 3 val_acc: 0.6933 | time: 5m 41s
+
+======================= epoch: 8 layer: bn =========================
+[    1] iter, [0.000000] epoch, avg loss: 0.010, attn_loss: -0.00074 
+[   51] iter, [0.196054] epoch, avg loss: 0.397, attn_loss: -0.03680 
+[  101] iter, [0.392109] epoch, avg loss: 0.390, attn_loss: -0.03680 
+[  151] iter, [0.588163] epoch, avg loss: 0.349, attn_loss: -0.03680 
+[  201] iter, [0.784218] epoch, avg loss: 0.350, attn_loss: -0.03680 
+[  251] iter, [0.980272] epoch, avg loss: 0.374, attn_loss: -0.03680 
+saved model to epoch8_val1_0.494_val3_0.684.pth
+top 1 train_acc:0.8973 | top 3 train_acc:0.9759 | top 1 val_acc: 0.4937 | top 3 val_acc: 0.6842 | time: 6m 21s
+
+======================= epoch: 9 layer: att =========================
+[    1] iter, [0.000000] epoch, avg loss: 0.006, attn_loss: -0.00074 
+[   51] iter, [0.196054] epoch, avg loss: 0.315, attn_loss: -0.03730 
+[  101] iter, [0.392109] epoch, avg loss: 0.320, attn_loss: -0.03831 
+[  151] iter, [0.588163] epoch, avg loss: 0.279, attn_loss: -0.03935 
+[  201] iter, [0.784218] epoch, avg loss: 0.337, attn_loss: -0.04043 
+[  251] iter, [0.980272] epoch, avg loss: 0.276, attn_loss: -0.04153 
+saved model to epoch9_val1_0.487_val3_0.680.pth
+top 1 train_acc:0.9174 | top 3 train_acc:0.9827 | top 1 val_acc: 0.4869 | top 3 val_acc: 0.6802 | time: 7m 16s
+
+======================= epoch: 10 layer: att =========================
+[    1] iter, [0.000000] epoch, avg loss: 0.010, attn_loss: -0.00084 
+[   51] iter, [0.196054] epoch, avg loss: 0.286, attn_loss: -0.04275 
+[  101] iter, [0.392109] epoch, avg loss: 0.285, attn_loss: -0.04386 
+[  151] iter, [0.588163] epoch, avg loss: 0.249, attn_loss: -0.04501 
+[  201] iter, [0.784218] epoch, avg loss: 0.236, attn_loss: -0.04619 
+[  251] iter, [0.980272] epoch, avg loss: 0.228, attn_loss: -0.04740 
+saved model to epoch10_val1_0.493_val3_0.692.pth
+top 1 train_acc:0.9315 | top 3 train_acc:0.9880 | top 1 val_acc: 0.4932 | top 3 val_acc: 0.6921 | time: 8m 10s
+
