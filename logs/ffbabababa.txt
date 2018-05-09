@@ -1,0 +1,9 @@
+======================= epoch: 0 layer: fc =========================
+[    1] iter, [0.000000] epoch, avg loss: 0.010, attn_loss: -0.00012 
+[   51] iter, [0.196054] epoch, avg loss: 0.659, attn_loss: -0.00615 
+[  101] iter, [0.392109] epoch, avg loss: 0.496, attn_loss: -0.00615 
+[  151] iter, [0.588163] epoch, avg loss: 0.456, attn_loss: -0.00615 
+[  201] iter, [0.784218] epoch, avg loss: 0.469, attn_loss: -0.00615 
+[  251] iter, [0.980272] epoch, avg loss: 0.409, attn_loss: -0.00615 
+top 1 val_acc: 0.4601 | top 3 val_acc: 0.6653 | time: 0m 21s
+======================= epoch: 1 layer: fc =========================
