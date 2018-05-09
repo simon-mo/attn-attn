@@ -1,0 +1,340 @@
+Training ['fc']
+[    1] iter, [0.000000] epoch, classifer loss: 0.252, attn_loss: 0.00000 
+[   21] iter, [0.078422] epoch, classifer loss: 4.761, attn_loss: 0.00000 
+[   41] iter, [0.156844] epoch, classifer loss: 4.150, attn_loss: 0.00000 
+[   61] iter, [0.235265] epoch, classifer loss: 3.622, attn_loss: 0.00000 
+[   81] iter, [0.313687] epoch, classifer loss: 3.510, attn_loss: 0.00000 
+[  101] iter, [0.392109] epoch, classifer loss: 3.324, attn_loss: 0.00000 
+[  121] iter, [0.470531] epoch, classifer loss: 3.277, attn_loss: 0.00000 
+[  141] iter, [0.548952] epoch, classifer loss: 3.195, attn_loss: 0.00000 
+[  161] iter, [0.627374] epoch, classifer loss: 3.228, attn_loss: 0.00000 
+[  181] iter, [0.705796] epoch, classifer loss: 2.899, attn_loss: 0.00000 
+[  201] iter, [0.784218] epoch, classifer loss: 2.920, attn_loss: 0.00000 
+[  221] iter, [0.862639] epoch, classifer loss: 3.033, attn_loss: 0.00000 
+[  241] iter, [0.941061] epoch, classifer loss: 3.026, attn_loss: 0.00000 
+100%|██████████| 256/256 [01:06<00:00,  3.87it/s]
+100%|██████████| 55/55 [00:14<00:00,  3.84it/s]
+{'train_accu': 0.37005268962136995, 'val_accu': 0.29874572405929306}
+Training ['attn_weights']
+[    1] iter, [0.000000] epoch, classifer loss: 0.142, attn_loss: 0.00000 
+[   21] iter, [0.078422] epoch, classifer loss: 2.426, attn_loss: -0.00054 
+[   41] iter, [0.156844] epoch, classifer loss: 2.408, attn_loss: -0.00181 
+[   61] iter, [0.235265] epoch, classifer loss: 2.381, attn_loss: -0.00348 
+[   81] iter, [0.313687] epoch, classifer loss: 2.344, attn_loss: -0.00603 
+[  101] iter, [0.392109] epoch, classifer loss: 2.197, attn_loss: -0.00968 
+[  121] iter, [0.470531] epoch, classifer loss: 2.168, attn_loss: -0.01446 
+[  141] iter, [0.548952] epoch, classifer loss: 2.374, attn_loss: -0.02049 
+[  161] iter, [0.627374] epoch, classifer loss: 2.260, attn_loss: -0.02784 
+[  181] iter, [0.705796] epoch, classifer loss: 2.209, attn_loss: -0.03694 
+[  201] iter, [0.784218] epoch, classifer loss: 2.240, attn_loss: -0.04785 
+[  221] iter, [0.862639] epoch, classifer loss: 2.224, attn_loss: -0.06043 
+[  241] iter, [0.941061] epoch, classifer loss: 2.276, attn_loss: -0.07488 
+100%|██████████| 256/256 [01:06<00:00,  3.84it/s]
+100%|██████████| 55/55 [00:14<00:00,  3.82it/s]
+{'train_accu': 0.45251807376546993, 'val_accu': 0.36488027366020526}
+Training ['bn']
+[    1] iter, [0.000000] epoch, classifer loss: 0.182, attn_loss: -0.00481 
+[   21] iter, [0.078422] epoch, classifer loss: 2.983, attn_loss: -0.09620 
+[   41] iter, [0.156844] epoch, classifer loss: 2.654, attn_loss: -0.09620 
+[   61] iter, [0.235265] epoch, classifer loss: 2.593, attn_loss: -0.09620 
+[   81] iter, [0.313687] epoch, classifer loss: 2.620, attn_loss: -0.09620 
+[  101] iter, [0.392109] epoch, classifer loss: 2.421, attn_loss: -0.09620 
+[  121] iter, [0.470531] epoch, classifer loss: 2.423, attn_loss: -0.09620 
+[  141] iter, [0.548952] epoch, classifer loss: 2.475, attn_loss: -0.09620 
+[  161] iter, [0.627374] epoch, classifer loss: 2.343, attn_loss: -0.09620 
+[  181] iter, [0.705796] epoch, classifer loss: 2.376, attn_loss: -0.09620 
+[  201] iter, [0.784218] epoch, classifer loss: 2.437, attn_loss: -0.09620 
+[  221] iter, [0.862639] epoch, classifer loss: 2.330, attn_loss: -0.09620 
+[  241] iter, [0.941061] epoch, classifer loss: 2.381, attn_loss: -0.09620 
+100%|██████████| 256/256 [01:08<00:00,  3.72it/s]
+100%|██████████| 55/55 [00:14<00:00,  3.70it/s]
+{'train_accu': 0.4620757260139689, 'val_accu': 0.3774230330672748}
+Training ['attn_weights']
+[    1] iter, [0.000000] epoch, classifer loss: 0.113, attn_loss: -0.00481 
+[   21] iter, [0.078422] epoch, classifer loss: 1.921, attn_loss: -0.10265 
+[   41] iter, [0.156844] epoch, classifer loss: 2.011, attn_loss: -0.11538 
+[   61] iter, [0.235265] epoch, classifer loss: 1.946, attn_loss: -0.12893 
+[   81] iter, [0.313687] epoch, classifer loss: 1.912, attn_loss: -0.14371 
+[  101] iter, [0.392109] epoch, classifer loss: 2.025, attn_loss: -0.15951 
+[  121] iter, [0.470531] epoch, classifer loss: 1.995, attn_loss: -0.17632 
+[  141] iter, [0.548952] epoch, classifer loss: 1.790, attn_loss: -0.19485 
+[  161] iter, [0.627374] epoch, classifer loss: 2.081, attn_loss: -0.21505 
+[  181] iter, [0.705796] epoch, classifer loss: 1.914, attn_loss: -0.23668 
+[  201] iter, [0.784218] epoch, classifer loss: 1.908, attn_loss: -0.26024 
+[  221] iter, [0.862639] epoch, classifer loss: 2.040, attn_loss: -0.28585 
+[  241] iter, [0.941061] epoch, classifer loss: 1.982, attn_loss: -0.31354 
+100%|██████████| 256/256 [01:06<00:00,  3.84it/s]
+100%|██████████| 55/55 [00:14<00:00,  3.82it/s]
+{'train_accu': 0.513662541355226, 'val_accu': 0.4064994298745724}
+Training ['bn']
+[    1] iter, [0.000000] epoch, classifer loss: 0.112, attn_loss: -0.01756 
+[   21] iter, [0.078422] epoch, classifer loss: 2.135, attn_loss: -0.35112 
+[   41] iter, [0.156844] epoch, classifer loss: 2.071, attn_loss: -0.35112 
+[   61] iter, [0.235265] epoch, classifer loss: 2.259, attn_loss: -0.35112 
+[   81] iter, [0.313687] epoch, classifer loss: 2.101, attn_loss: -0.35112 
+[  101] iter, [0.392109] epoch, classifer loss: 2.061, attn_loss: -0.35112 
+[  121] iter, [0.470531] epoch, classifer loss: 2.093, attn_loss: -0.35112 
+[  141] iter, [0.548952] epoch, classifer loss: 2.144, attn_loss: -0.35112 
+[  161] iter, [0.627374] epoch, classifer loss: 2.195, attn_loss: -0.35112 
+[  181] iter, [0.705796] epoch, classifer loss: 2.145, attn_loss: -0.35112 
+[  201] iter, [0.784218] epoch, classifer loss: 2.144, attn_loss: -0.35112 
+[  221] iter, [0.862639] epoch, classifer loss: 2.202, attn_loss: -0.35112 
+[  241] iter, [0.941061] epoch, classifer loss: 2.216, attn_loss: -0.35112 
+100%|██████████| 256/256 [01:08<00:00,  3.72it/s]
+100%|██████████| 55/55 [00:14<00:00,  3.69it/s]
+{'train_accu': 0.5081485112118613, 'val_accu': 0.40421892816419613}
+Training ['fc']
+[    1] iter, [0.000000] epoch, classifer loss: 0.082, attn_loss: -0.01756 
+[   21] iter, [0.078422] epoch, classifer loss: 2.476, attn_loss: -0.35112 
+[   41] iter, [0.156844] epoch, classifer loss: 2.054, attn_loss: -0.35112 
+[   61] iter, [0.235265] epoch, classifer loss: 2.011, attn_loss: -0.35112 
+[   81] iter, [0.313687] epoch, classifer loss: 1.859, attn_loss: -0.35112 
+[  101] iter, [0.392109] epoch, classifer loss: 1.785, attn_loss: -0.35112 
+[  121] iter, [0.470531] epoch, classifer loss: 1.765, attn_loss: -0.35112 
+[  141] iter, [0.548952] epoch, classifer loss: 1.852, attn_loss: -0.35112 
+[  161] iter, [0.627374] epoch, classifer loss: 1.889, attn_loss: -0.35112 
+[  181] iter, [0.705796] epoch, classifer loss: 1.921, attn_loss: -0.35112 
+[  201] iter, [0.784218] epoch, classifer loss: 1.868, attn_loss: -0.35112 
+[  221] iter, [0.862639] epoch, classifer loss: 1.795, attn_loss: -0.35112 
+[  241] iter, [0.941061] epoch, classifer loss: 1.786, attn_loss: -0.35112 
+100%|██████████| 256/256 [01:06<00:00,  3.85it/s]
+100%|██████████| 55/55 [00:14<00:00,  3.83it/s]
+{'train_accu': 0.579218233059674, 'val_accu': 0.3979475484606613}
+Training ['attn_weights']
+[    1] iter, [0.000000] epoch, classifer loss: 0.065, attn_loss: -0.01756 
+[   21] iter, [0.078422] epoch, classifer loss: 1.463, attn_loss: -0.36390 
+[   41] iter, [0.156844] epoch, classifer loss: 1.439, attn_loss: -0.38864 
+[   61] iter, [0.235265] epoch, classifer loss: 1.261, attn_loss: -0.41510 
+[   81] iter, [0.313687] epoch, classifer loss: 1.389, attn_loss: -0.44295 
+[  101] iter, [0.392109] epoch, classifer loss: 1.379, attn_loss: -0.47185 
+[  121] iter, [0.470531] epoch, classifer loss: 1.298, attn_loss: -0.50270 
+[  141] iter, [0.548952] epoch, classifer loss: 1.337, attn_loss: -0.53544 
+[  161] iter, [0.627374] epoch, classifer loss: 1.303, attn_loss: -0.56985 
+[  181] iter, [0.705796] epoch, classifer loss: 1.274, attn_loss: -0.60595 
+[  201] iter, [0.784218] epoch, classifer loss: 1.289, attn_loss: -0.64385 
+[  221] iter, [0.862639] epoch, classifer loss: 1.223, attn_loss: -0.68411 
+[  241] iter, [0.941061] epoch, classifer loss: 1.243, attn_loss: -0.72640 
+100%|██████████| 256/256 [01:06<00:00,  3.84it/s]
+100%|██████████| 55/55 [00:14<00:00,  3.82it/s]
+{'train_accu': 0.6611934811910305, 'val_accu': 0.45381984036488027}
+Training ['bn']
+[    1] iter, [0.000000] epoch, classifer loss: 0.088, attn_loss: -0.03917 
+[   21] iter, [0.078422] epoch, classifer loss: 1.690, attn_loss: -0.78341 
+[   41] iter, [0.156844] epoch, classifer loss: 1.551, attn_loss: -0.78341 
+[   61] iter, [0.235265] epoch, classifer loss: 1.703, attn_loss: -0.78341 
+[   81] iter, [0.313687] epoch, classifer loss: 1.658, attn_loss: -0.78341 
+[  101] iter, [0.392109] epoch, classifer loss: 1.539, attn_loss: -0.78341 
+[  121] iter, [0.470531] epoch, classifer loss: 1.613, attn_loss: -0.78341 
+[  141] iter, [0.548952] epoch, classifer loss: 1.567, attn_loss: -0.78341 
+[  161] iter, [0.627374] epoch, classifer loss: 1.505, attn_loss: -0.78341 
+[  181] iter, [0.705796] epoch, classifer loss: 1.511, attn_loss: -0.78341 
+[  201] iter, [0.784218] epoch, classifer loss: 1.518, attn_loss: -0.78341 
+[  221] iter, [0.862639] epoch, classifer loss: 1.682, attn_loss: -0.78341 
+[  241] iter, [0.941061] epoch, classifer loss: 1.520, attn_loss: -0.78341 
+100%|██████████| 256/256 [01:08<00:00,  3.72it/s]
+100%|██████████| 55/55 [00:14<00:00,  3.69it/s]
+{'train_accu': 0.645876730792795, 'val_accu': 0.4509692132269099}
+Training ['attn_weights']
+[    1] iter, [0.000000] epoch, classifer loss: 0.065, attn_loss: -0.03917 
+[   21] iter, [0.078422] epoch, classifer loss: 1.194, attn_loss: -0.80629 
+[   41] iter, [0.156844] epoch, classifer loss: 1.165, attn_loss: -0.85059 
+[   61] iter, [0.235265] epoch, classifer loss: 1.163, attn_loss: -0.89540 
+[   81] iter, [0.313687] epoch, classifer loss: 1.111, attn_loss: -0.94173 
+[  101] iter, [0.392109] epoch, classifer loss: 1.159, attn_loss: -0.98994 
+[  121] iter, [0.470531] epoch, classifer loss: 1.056, attn_loss: -1.03930 
+[  141] iter, [0.548952] epoch, classifer loss: 1.115, attn_loss: -1.09085 
+[  161] iter, [0.627374] epoch, classifer loss: 1.036, attn_loss: -1.14449 
+[  181] iter, [0.705796] epoch, classifer loss: 0.996, attn_loss: -1.20061 
+[  201] iter, [0.784218] epoch, classifer loss: 1.045, attn_loss: -1.25944 
+[  221] iter, [0.862639] epoch, classifer loss: 1.176, attn_loss: -1.32066 
+[  241] iter, [0.941061] epoch, classifer loss: 1.133, attn_loss: -1.38404 
+100%|██████████| 256/256 [01:06<00:00,  3.85it/s]
+100%|██████████| 55/55 [00:14<00:00,  3.82it/s]
+{'train_accu': 0.7142507045705183, 'val_accu': 0.467502850627138}
+Training ['bn']
+[    1] iter, [0.000000] epoch, classifer loss: 0.050, attn_loss: -0.07339 
+[   21] iter, [0.078422] epoch, classifer loss: 1.322, attn_loss: -1.46789 
+[   41] iter, [0.156844] epoch, classifer loss: 1.536, attn_loss: -1.46789 
+[   61] iter, [0.235265] epoch, classifer loss: 1.411, attn_loss: -1.46789 
+[   81] iter, [0.313687] epoch, classifer loss: 1.403, attn_loss: -1.46789 
+[  101] iter, [0.392109] epoch, classifer loss: 1.394, attn_loss: -1.46789 
+[  121] iter, [0.470531] epoch, classifer loss: 1.446, attn_loss: -1.46789 
+[  141] iter, [0.548952] epoch, classifer loss: 1.379, attn_loss: -1.46789 
+[  161] iter, [0.627374] epoch, classifer loss: 1.486, attn_loss: -1.46789 
+[  181] iter, [0.705796] epoch, classifer loss: 1.428, attn_loss: -1.46789 
+[  201] iter, [0.784218] epoch, classifer loss: 1.382, attn_loss: -1.46789 
+[  221] iter, [0.862639] epoch, classifer loss: 1.453, attn_loss: -1.46789 
+[  241] iter, [0.941061] epoch, classifer loss: 1.427, attn_loss: -1.46789 
+100%|██████████| 256/256 [01:08<00:00,  3.72it/s]
+100%|██████████| 55/55 [00:14<00:00,  3.70it/s]
+{'train_accu': 0.6668300453375812, 'val_accu': 0.4532497149372862}
+Training ['fc']
+[    1] iter, [0.000000] epoch, classifer loss: 0.045, attn_loss: -0.07339 
+[   21] iter, [0.078422] epoch, classifer loss: 1.670, attn_loss: -1.46789 
+[   41] iter, [0.156844] epoch, classifer loss: 1.501, attn_loss: -1.46789 
+[   61] iter, [0.235265] epoch, classifer loss: 1.266, attn_loss: -1.46789 
+[   81] iter, [0.313687] epoch, classifer loss: 1.347, attn_loss: -1.46789 
+[  101] iter, [0.392109] epoch, classifer loss: 1.140, attn_loss: -1.46789 
+[  121] iter, [0.470531] epoch, classifer loss: 1.323, attn_loss: -1.46789 
+[  141] iter, [0.548952] epoch, classifer loss: 1.288, attn_loss: -1.46789 
+[  161] iter, [0.627374] epoch, classifer loss: 1.328, attn_loss: -1.46789 
+[  181] iter, [0.705796] epoch, classifer loss: 1.172, attn_loss: -1.46789 
+[  201] iter, [0.784218] epoch, classifer loss: 1.327, attn_loss: -1.46789 
+[  221] iter, [0.862639] epoch, classifer loss: 1.199, attn_loss: -1.46789 
+[  241] iter, [0.941061] epoch, classifer loss: 1.261, attn_loss: -1.46789 
+100%|██████████| 256/256 [01:06<00:00,  3.85it/s]
+100%|██████████| 55/55 [00:14<00:00,  3.82it/s]
+{'train_accu': 0.7510109055262836, 'val_accu': 0.4429874572405929}
+Training ['attn_weights']
+[    1] iter, [0.000000] epoch, classifer loss: 0.046, attn_loss: -0.07339 
+[   21] iter, [0.078422] epoch, classifer loss: 0.846, attn_loss: -1.50030 
+[   41] iter, [0.156844] epoch, classifer loss: 0.793, attn_loss: -1.56330 
+[   61] iter, [0.235265] epoch, classifer loss: 0.854, attn_loss: -1.62784 
+[   81] iter, [0.313687] epoch, classifer loss: 0.724, attn_loss: -1.69438 
+[  101] iter, [0.392109] epoch, classifer loss: 0.812, attn_loss: -1.76342 
+[  121] iter, [0.470531] epoch, classifer loss: 0.756, attn_loss: -1.83426 
+[  141] iter, [0.548952] epoch, classifer loss: 0.795, attn_loss: -1.90701 
+[  161] iter, [0.627374] epoch, classifer loss: 0.789, attn_loss: -1.98220 
+[  181] iter, [0.705796] epoch, classifer loss: 0.842, attn_loss: -2.05864 
+[  201] iter, [0.784218] epoch, classifer loss: 0.743, attn_loss: -2.13760 
+[  221] iter, [0.862639] epoch, classifer loss: 0.857, attn_loss: -2.21936 
+[  241] iter, [0.941061] epoch, classifer loss: 0.789, attn_loss: -2.30386 
+100%|██████████| 256/256 [01:06<00:00,  3.84it/s]
+100%|██████████| 55/55 [00:14<00:00,  3.82it/s]
+{'train_accu': 0.7983090307560348, 'val_accu': 0.47434435575826683}
+Training ['bn']
+[    1] iter, [0.000000] epoch, classifer loss: 0.056, attn_loss: -0.12078 
+[   21] iter, [0.078422] epoch, classifer loss: 1.178, attn_loss: -2.41557 
+[   41] iter, [0.156844] epoch, classifer loss: 1.153, attn_loss: -2.41557 
+[   61] iter, [0.235265] epoch, classifer loss: 1.056, attn_loss: -2.41557 
+[   81] iter, [0.313687] epoch, classifer loss: 1.160, attn_loss: -2.41557 
+[  101] iter, [0.392109] epoch, classifer loss: 1.121, attn_loss: -2.41557 
+[  121] iter, [0.470531] epoch, classifer loss: 1.086, attn_loss: -2.41557 
+[  141] iter, [0.548952] epoch, classifer loss: 1.142, attn_loss: -2.41557 
+[  161] iter, [0.627374] epoch, classifer loss: 1.136, attn_loss: -2.41557 
+[  181] iter, [0.705796] epoch, classifer loss: 1.158, attn_loss: -2.41557 
+[  201] iter, [0.784218] epoch, classifer loss: 1.070, attn_loss: -2.41557 
+[  221] iter, [0.862639] epoch, classifer loss: 1.184, attn_loss: -2.41557 
+[  241] iter, [0.941061] epoch, classifer loss: 1.157, attn_loss: -2.41557 
+100%|██████████| 256/256 [01:08<00:00,  3.72it/s]
+100%|██████████| 55/55 [00:14<00:00,  3.70it/s]
+{'train_accu': 0.7518686435485847, 'val_accu': 0.4429874572405929}
+Training ['attn_weights']
+[    1] iter, [0.000000] epoch, classifer loss: 0.040, attn_loss: -0.12078 
+[   21] iter, [0.078422] epoch, classifer loss: 0.740, attn_loss: -2.46244 
+[   41] iter, [0.156844] epoch, classifer loss: 0.705, attn_loss: -2.55314 
+[   61] iter, [0.235265] epoch, classifer loss: 0.681, attn_loss: -2.64538 
+[   81] iter, [0.313687] epoch, classifer loss: 0.647, attn_loss: -2.73935 
+[  101] iter, [0.392109] epoch, classifer loss: 0.704, attn_loss: -2.83464 
+[  121] iter, [0.470531] epoch, classifer loss: 0.711, attn_loss: -2.93227 
+[  141] iter, [0.548952] epoch, classifer loss: 0.650, attn_loss: -3.03285 
+[  161] iter, [0.627374] epoch, classifer loss: 0.704, attn_loss: -3.13509 
+[  181] iter, [0.705796] epoch, classifer loss: 0.592, attn_loss: -3.24058 
+[  201] iter, [0.784218] epoch, classifer loss: 0.691, attn_loss: -3.34932 
+[  221] iter, [0.862639] epoch, classifer loss: 0.661, attn_loss: -3.46024 
+[  241] iter, [0.941061] epoch, classifer loss: 0.665, attn_loss: -3.57404 
+100%|██████████| 256/256 [01:06<00:00,  3.84it/s]
+100%|██████████| 55/55 [00:14<00:00,  3.80it/s]
+{'train_accu': 0.8324960176448964, 'val_accu': 0.47035347776510833}
+Training ['bn']
+[    1] iter, [0.000000] epoch, classifer loss: 0.054, attn_loss: -0.18616 
+[   21] iter, [0.078422] epoch, classifer loss: 0.992, attn_loss: -3.72326 
+[   41] iter, [0.156844] epoch, classifer loss: 1.048, attn_loss: -3.72326 
+[   61] iter, [0.235265] epoch, classifer loss: 0.973, attn_loss: -3.72326 
+[   81] iter, [0.313687] epoch, classifer loss: 0.930, attn_loss: -3.72326 
+[  101] iter, [0.392109] epoch, classifer loss: 0.963, attn_loss: -3.72326 
+[  121] iter, [0.470531] epoch, classifer loss: 0.986, attn_loss: -3.72326 
+[  141] iter, [0.548952] epoch, classifer loss: 0.992, attn_loss: -3.72326 
+[  161] iter, [0.627374] epoch, classifer loss: 1.071, attn_loss: -3.72326 
+[  181] iter, [0.705796] epoch, classifer loss: 1.053, attn_loss: -3.72326 
+[  201] iter, [0.784218] epoch, classifer loss: 1.039, attn_loss: -3.72326 
+[  221] iter, [0.862639] epoch, classifer loss: 1.013, attn_loss: -3.72326 
+[  241] iter, [0.941061] epoch, classifer loss: 1.104, attn_loss: -3.72326 
+100%|██████████| 256/256 [01:08<00:00,  3.72it/s]
+100%|██████████| 55/55 [00:14<00:00,  3.69it/s]
+{'train_accu': 0.7806641342972674, 'val_accu': 0.43842645381984036}
+Training ['fc']
+[    1] iter, [0.000000] epoch, classifer loss: 0.028, attn_loss: -0.18616 
+[   21] iter, [0.078422] epoch, classifer loss: 1.119, attn_loss: -3.72326 
+[   41] iter, [0.156844] epoch, classifer loss: 1.143, attn_loss: -3.72326 
+[   61] iter, [0.235265] epoch, classifer loss: 0.933, attn_loss: -3.72326 
+[   81] iter, [0.313687] epoch, classifer loss: 0.848, attn_loss: -3.72326 
+[  101] iter, [0.392109] epoch, classifer loss: 0.891, attn_loss: -3.72326 
+[  121] iter, [0.470531] epoch, classifer loss: 0.946, attn_loss: -3.72326 
+[  141] iter, [0.548952] epoch, classifer loss: 0.824, attn_loss: -3.72326 
+[  161] iter, [0.627374] epoch, classifer loss: 0.891, attn_loss: -3.72326 
+[  181] iter, [0.705796] epoch, classifer loss: 0.804, attn_loss: -3.72326 
+[  201] iter, [0.784218] epoch, classifer loss: 0.925, attn_loss: -3.72326 
+[  221] iter, [0.862639] epoch, classifer loss: 1.035, attn_loss: -3.72326 
+[  241] iter, [0.941061] epoch, classifer loss: 0.925, attn_loss: -3.72326 
+100%|██████████| 256/256 [01:06<00:00,  3.85it/s]
+100%|██████████| 55/55 [00:14<00:00,  3.82it/s]
+{'train_accu': 0.7953682146795735, 'val_accu': 0.42873432155074115}
+Training ['attn_weights']
+[    1] iter, [0.000000] epoch, classifer loss: 0.030, attn_loss: -0.18616 
+[   21] iter, [0.078422] epoch, classifer loss: 0.704, attn_loss: -3.78284 
+[   41] iter, [0.156844] epoch, classifer loss: 0.660, attn_loss: -3.89727 
+[   61] iter, [0.235265] epoch, classifer loss: 0.608, attn_loss: -4.01447 
+[   81] iter, [0.313687] epoch, classifer loss: 0.525, attn_loss: -4.13515 
+[  101] iter, [0.392109] epoch, classifer loss: 0.544, attn_loss: -4.25836 
+[  121] iter, [0.470531] epoch, classifer loss: 0.566, attn_loss: -4.38472 
+[  141] iter, [0.548952] epoch, classifer loss: 0.623, attn_loss: -4.51347 
+[  161] iter, [0.627374] epoch, classifer loss: 0.572, attn_loss: -4.64471 
+[  181] iter, [0.705796] epoch, classifer loss: 0.586, attn_loss: -4.77865 
+[  201] iter, [0.784218] epoch, classifer loss: 0.517, attn_loss: -4.91531 
+[  221] iter, [0.862639] epoch, classifer loss: 0.568, attn_loss: -5.05609 
+[  241] iter, [0.941061] epoch, classifer loss: 0.548, attn_loss: -5.19962 
+100%|██████████| 256/256 [01:06<00:00,  3.84it/s]
+100%|██████████| 55/55 [00:14<00:00,  3.82it/s]
+{'train_accu': 0.8606788383776498, 'val_accu': 0.4452679589509692}
+Training ['bn']
+[    1] iter, [0.000000] epoch, classifer loss: 0.041, attn_loss: -0.26940 
+[   21] iter, [0.078422] epoch, classifer loss: 0.921, attn_loss: -5.38797 
+[   41] iter, [0.156844] epoch, classifer loss: 0.985, attn_loss: -5.38797 
+[   61] iter, [0.235265] epoch, classifer loss: 0.890, attn_loss: -5.38797 
+[   81] iter, [0.313687] epoch, classifer loss: 0.850, attn_loss: -5.38797 
+[  101] iter, [0.392109] epoch, classifer loss: 1.004, attn_loss: -5.38797 
+[  121] iter, [0.470531] epoch, classifer loss: 0.916, attn_loss: -5.38797 
+[  141] iter, [0.548952] epoch, classifer loss: 0.899, attn_loss: -5.38797 
+[  161] iter, [0.627374] epoch, classifer loss: 0.988, attn_loss: -5.38797 
+[  181] iter, [0.705796] epoch, classifer loss: 0.902, attn_loss: -5.38797 
+[  201] iter, [0.784218] epoch, classifer loss: 0.855, attn_loss: -5.38797 
+[  221] iter, [0.862639] epoch, classifer loss: 0.953, attn_loss: -5.38797 
+[  241] iter, [0.941061] epoch, classifer loss: 1.015, attn_loss: -5.38797 
+100%|██████████| 256/256 [01:08<00:00,  3.72it/s]
+100%|██████████| 55/55 [00:14<00:00,  3.69it/s]
+{'train_accu': 0.8121553731160397, 'val_accu': 0.4412770809578107}
+Training ['attn_weights']
+[    1] iter, [0.000000] epoch, classifer loss: 0.033, attn_loss: -0.26940 
+[   21] iter, [0.078422] epoch, classifer loss: 0.518, attn_loss: -5.46796 
+[   41] iter, [0.156844] epoch, classifer loss: 0.448, attn_loss: -5.61986 
+[   61] iter, [0.235265] epoch, classifer loss: 0.413, attn_loss: -5.77558 
+[   81] iter, [0.313687] epoch, classifer loss: 0.457, attn_loss: -5.93482 
+[  101] iter, [0.392109] epoch, classifer loss: 0.446, attn_loss: -6.09588 
+[  121] iter, [0.470531] epoch, classifer loss: 0.423, attn_loss: -6.25858 
+[  141] iter, [0.548952] epoch, classifer loss: 0.432, attn_loss: -6.42464 
+[  161] iter, [0.627374] epoch, classifer loss: 0.505, attn_loss: -6.59432 
+[  181] iter, [0.705796] epoch, classifer loss: 0.479, attn_loss: -6.76578 
+[  201] iter, [0.784218] epoch, classifer loss: 0.452, attn_loss: -6.94047 
+[  221] iter, [0.862639] epoch, classifer loss: 0.492, attn_loss: -7.11921 
+[  241] iter, [0.941061] epoch, classifer loss: 0.480, attn_loss: -7.30107 
+100%|██████████| 256/256 [01:06<00:00,  3.84it/s]
+100%|██████████| 55/55 [00:14<00:00,  3.82it/s]
+{'train_accu': 0.8956010292856268, 'val_accu': 0.4549600912200684}
+Training ['bn']
+[    1] iter, [0.000000] epoch, classifer loss: 0.043, attn_loss: -0.37690 
+[   21] iter, [0.078422] epoch, classifer loss: 0.712, attn_loss: -7.53802 
+[   41] iter, [0.156844] epoch, classifer loss: 0.775, attn_loss: -7.53802 
+[   61] iter, [0.235265] epoch, classifer loss: 0.775, attn_loss: -7.53802 
+[   81] iter, [0.313687] epoch, classifer loss: 0.764, attn_loss: -7.53802 
+[  101] iter, [0.392109] epoch, classifer loss: 0.799, attn_loss: -7.53802 
+[  121] iter, [0.470531] epoch, classifer loss: 0.871, attn_loss: -7.53802 
+[  141] iter, [0.548952] epoch, classifer loss: 0.789, attn_loss: -7.53802 
+[  161] iter, [0.627374] epoch, classifer loss: 0.866, attn_loss: -7.53802 
+[  181] iter, [0.705796] epoch, classifer loss: 0.915, attn_loss: -7.53802 
+[  201] iter, [0.784218] epoch, classifer loss: 0.818, attn_loss: -7.53802 
+[  221] iter, [0.862639] epoch, classifer loss: 0.862, attn_loss: -7.53802 
+[  241] iter, [0.941061] epoch, classifer loss: 0.820, attn_loss: -7.53802 
+100%|██████████| 256/256 [01:08<00:00,  3.72it/s]
+100%|██████████| 55/55 [00:14<00:00,  3.68it/s]
+{'train_accu': 0.8255115794633011, 'val_accu': 0.43101482326111745}
