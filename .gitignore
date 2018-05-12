@@ -1,4 +1,7 @@
 data
+inception_data
+*.zip
 .ipynb_checkpoints/
 __pycache__
 *.pkl
+*.pth
